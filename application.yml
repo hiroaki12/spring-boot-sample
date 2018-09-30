@@ -1,0 +1,14 @@
+spring:
+  datasource:
+   datasource1:
+    url: jdbc:oracle:thin:@orcl1.cuvlkuybdse2.us-east-2.rds.amazonaws.com:1521:orcl
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: awsuser
+    password: agitonit
+   
+   datasource2:
+    url: jdbc:oracle:thin:@orcl2.cuvlkuybdse2.us-east-2.rds.amazonaws.com:1521:orcl
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: awsuser
+    password: agitonit
+

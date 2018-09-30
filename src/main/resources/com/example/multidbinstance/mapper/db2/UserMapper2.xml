@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="com.example.multidbinstance.mapper.db2.UserMapper2">
+
+	<insert id="save"
+		parameterType="com.example.multidbinstance.entity.User">
+		INSERT INTO USERS(
+		  ID,
+		  FIRST_NAME,
+		  LAST_NAME
+		)
+		VALUES(
+		  #{id},
+		  #{firstName},
+		  #{lastName}
+		)
+	</insert>
+
+</mapper>
